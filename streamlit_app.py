@@ -59,7 +59,7 @@ except URLERROR as e:
 # write your own comment - what does this do?
 
 def insert_row_snowflake(new_fruit):
-  with my_cnx.cursor() as my cur:
+  with my_cnx.cursor() as my_cur:
     my_cur.execute("insert into fruit_load_list values ('from streamlit')")
     return "Thanks for adding " + new_fruit
 
