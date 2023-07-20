@@ -58,14 +58,14 @@ except URLERROR as e:
 # write your own comment -what does the next line do? 
 # write your own comment - what does this do?
 
-#streamlit.stop()
+# streamlit.stop()
 
 
-#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-#my_cur = my_cnx.cursor()
-## my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
-#my_cur.execute("select * from fruit_load_list")
-#my_data_rows = my_cur.fetchall()
+# my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
+# my_cur = my_cnx.cursor()
+# my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
+# my_cur.execute("select * from fruit_load_list")
+# my_data_rows = my_cur.fetchall()
 # streamlit.text("Hello from Snowflake:")
 
 streamlit.header("The fruit load list contains:")
